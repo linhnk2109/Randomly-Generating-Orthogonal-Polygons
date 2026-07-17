@@ -20,7 +20,7 @@ The program produces two output files:
 * experiment_results.txt: summary of the experimental results.
 * experiment_results_detailed.txt: detailed results for all trials.
 
-2. `inflate_cut_final.py`  
+2. Inflate-Cut algorithm 
 An updated implementation of the Inflate-Cut algorithm presented in the paper “Quadratic-Time Linear-Space Algorithms for Generating Orthogonal Polygons with a Given Number of Vertices” by Ana Paula Tomás and António Leslie Bajuelos (EWCG 2004). Its core routine is implemented in optimized C code and called from Python to improve computational performance.
 
 Run the Inflate-Cut algorithm using:
@@ -29,7 +29,7 @@ python3 inflate_cut_final.py
 ```
 
 
-`inflate_paste_final.py`  
+3. Inflate-Paste algorithm 
 An implementation of the Inflate-Paste algorithm presented in the same paper by Ana Paula Tomás and António Leslie Bajuelos (EWCG 2004).
 
 Run the Inflate-Paste algorithm using:
