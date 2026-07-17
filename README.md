@@ -13,6 +13,10 @@ there are two output: experiment_results.txt and experiment_results_detailed.txt
 File inflate_cut
 python3 inflate_cut |tee output.txt
 
+3. `inflate_cut_final.py`  
+   An updated implementation of the Inflate-Cut algorithm. Its core routine is implemented in optimized C code and called from Python to improve computational performance.
 
+4. `inflate_paste_final.py`  
+   An implementation of the Inflate-Paste algorithm presented in the paper *“Quadratic-Time Linear-Space Algorithms for Generating Orthogonal Polygons with a Given Number of Vertices”* by Ana Paula Tomás and António Leslie Bajuelos (EWCG 2004).
 
 
