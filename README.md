@@ -6,7 +6,7 @@ Run the proposed algorithm using:
 
 ```bash
 python3 genDataStatistic.py
-
+```
 The experimental settings can be configured in genDataStatistic.py:
 
 VERTEX_COUNTS = [10, 20, 50, 100, 200, 500, 1000, 100000]
